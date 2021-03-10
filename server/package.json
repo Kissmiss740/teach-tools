@@ -1,0 +1,36 @@
+{
+  "name": "server",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon bin/www ",
+    "start": "pm2 start bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^4.1.1",
+    "ejs": "~2.3.3",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-convert": "^1.2.0",
+    "koa-generic-session": "^2.0.4",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-onerror": "^4.1.0",
+    "koa-passport": "^4.1.1",
+    "koa-redis": "^4.0.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa2-cors": "^2.0.6",
+    "mongoose": "^5.9.7",
+    "nodemailer": "^4.6.8",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}

@@ -1,0 +1,50 @@
+//
+.message-class {
+  .el-icon-success {
+    color: #3a87be;
+    margin-right: 10px;
+  }
+
+  background-color: #d9edf7;
+  color: #3a87be;
+  padding: 12px 13px;
+  min-width: auto;
+  font-size: 20px;
+}
+
+.el-dialog__wrapper {
+  z-index: 3000 !important;
+}
+
+.el-loading-mask.is-fullscreen {
+  z-index: 4000 !important;
+}
+
+.example-dialog {
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 2em;
+  }
+}
+
+
+.example-content {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  position: relative;
+
+  p {
+    margin: 10px;
+    font-size: 18px;
+    line-height: 1.5;
+    text-indent: 2em;
+  }
+
+  .el-button {
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
+}
